@@ -1,4 +1,4 @@
- /* Global Styles */
+
  body {
     margin: 0;
     padding: 0;
@@ -81,7 +81,6 @@
     opacity: 0.7;
 }
 
-/* Gallery Section */
 .carousel{
     height: 30%!important;
     width: 60%!important;
@@ -110,7 +109,6 @@ hr{
     align-items: center;
 }
 
-/* Map Styling */
 .map-iframe {
     width: 100%;
     height: 350px;
