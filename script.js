@@ -1,6 +1,4 @@
-// JavaScript for animations and interactivity
 
-// Smooth scrolling for navigation links
 document.querySelectorAll('.navbar-nav a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -12,7 +10,6 @@ document.querySelectorAll('.navbar-nav a').forEach(anchor => {
     });
 });
 
-// Sticky Navbar Effect
 window.addEventListener('scroll', function () {
     const navbar = document.querySelector('.navbar');
     if (window.pageYOffset > 100) {
@@ -22,7 +19,7 @@ window.addEventListener('scroll', function () {
     }
 });
 
-// Gallery Image Hover Effect
+
 const galleryImages = document.querySelectorAll('.gallery-image');
 
 galleryImages.forEach(image => {
@@ -37,7 +34,7 @@ galleryImages.forEach(image => {
     });
 });
 
-// Book Now Button Pop Effect
+
 const bookNowButton = document.querySelector('.btn-book-now');
 
 bookNowButton.addEventListener('mouseover', () => {
@@ -48,7 +45,7 @@ bookNowButton.addEventListener('mouseout', () => {
     bookNowButton.classList.remove('pop');
 });
 
-// Pop animation using keyframes
+
 const styleSheet = document.styleSheets[0];
 styleSheet.insertRule(`
     @keyframes pop {
